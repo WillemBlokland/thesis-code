@@ -1,5 +1,5 @@
-#This is a modified version of the blender_render script from the GENEA visualizer by Patrick Jonell
-#Original code source: https://github.com/jonepatr/genea_visualizer/blob/master/celery-queue/blender_render.py 
+#This is a modified version of the blender_render script from the GENEA visualizer 2022
+#Original code source: https://github.com/TeoNikolov/genea_visualizer/blob/archive_2022/celery-queue/blender_render.py
 
 
 import sys
