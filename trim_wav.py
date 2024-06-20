@@ -27,7 +27,7 @@ def trim_wav(input_file, output_file, start_time, duration):
                 frames = wav_file.readframes(frames_to_read)
                 output_wav.writeframes(frames)
 
-# Example usage
+# Define input
 input_file = r'C:\Users\wbblo\Bureaublad\AI_THESIS\Tacotron2-SpeechGesture-main\Tacotron2-SpeechGesture-main\dataset_v1\tst\wav\tst_2022_v1_019.wav'
 output_file = r'C:\Users\wbblo\Bureaublad\AI_THESIS\sound_thesis_0-19\019\tst_2022_v1_019_trimmed.wav'
 start_time = 43  # Start time in seconds
