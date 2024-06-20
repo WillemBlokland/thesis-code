@@ -30,7 +30,7 @@ def resample_face_animation(input_file, output_file, original_fps=25, target_fps
     print(f'Resampled data saved to {output_file}')
 
 # Directory containing the .npy files
-input_directory = 'C:/Users/wbblo/Bureaublad/AI_THESIS/result'
+input_directory = 'path/to/numpy/folder'
 
 # Iterate over all .npy files in the directory
 for filename in os.listdir(input_directory):
