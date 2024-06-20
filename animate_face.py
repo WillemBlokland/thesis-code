@@ -3,11 +3,11 @@ import numpy as np
 import time
 
 # Load the vertex data from the .npy file
-data_path = 'C:/Users/wbblo/Bureaublad/AI_THESIS/ground_truth/ground_truth/npy/trn_2022_v1_208_10sec_emotional_F1_Condition_F1_30fps.npy'
+data_path = 'path/to/numpy.npy'
 vertex_data = np.load(data_path)
 
 # Path to your audio file
-# audio_path = 'C:/Users/wbblo/Bureaublad/FaceXHubert/FaceXHuBERT/demo/wav/tst_2022_v1_030-[AudioTrimmer.com].wav'
+# audio_path = 'path/to/audio.wav'
 
 # Get the object
 obj = bpy.data.objects['F1']
