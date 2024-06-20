@@ -20,7 +20,7 @@ def print_wav_durations(main_folder):
                 print(f"File: {file_path} - Duration: {duration:.2f} seconds")
 
 # Main folder containing the subfolders with wav files
-main_folder = r'C:\Users\wbblo\Bureaublad\AI_THESIS\sound_thesis_0-19'
+main_folder = r'path/to/audio/folder'
 
 # Print durations of all wav files in the directory
 print_wav_durations(main_folder)
