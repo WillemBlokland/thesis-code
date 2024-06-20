@@ -28,7 +28,7 @@ def resample_face_animation(input_file, output_file, original_fps=25, target_fps
     np.save(output_file, resampled_face_data)
     print(f'Resampled data saved to {output_file}')
 
-# Example usage
-input_file = 'C:/Users/wbblo/Bureaublad/AI_THESIS/ground_truth/ground_truth/npy/trn_2022_v1_208_10sec_emotional_F1_Condition_F1.npy'
-output_file = 'C:/Users/wbblo/Bureaublad/AI_THESIS/trn_2022_v1_208_10sec_emotional_F1_Condition_F1_25_to_30fps.npy'
+# Define input
+input_file = 'path/to/input.npy'
+output_file = 'path/to/output.npy'
 resample_face_animation(input_file, output_file)
