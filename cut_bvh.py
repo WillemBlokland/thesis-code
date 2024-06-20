@@ -33,9 +33,9 @@ def cut_bvh(input_file, output_file, start_time, end_time):
         f.writelines(lines[end_header_index+1+start_frame:end_header_index+1+end_frame])  # Write frames within the range
 
 
-# Example usage
-input_file =  r"C:\Users\wbblo\Bureaublad\AI_THESIS\Tacotron2-SpeechGesture-main\Tacotron2-SpeechGesture-main\Tacotron2\outputs\fullbody\fullbody-019.bvh"
-output_file = r"C:\Users\wbblo\Bureaublad\AI_THESIS\sound_thesis_0-19\019\fullbody-019_cut.bvh"
+# Define input
+input_file =  r"path/to/input/motion/data.bvh"
+output_file = r"path/to/output/motion/data.bvh"
 start_time_to_cut = 43  # seconds
 end_time_to_cut =  50  # seconds
 
