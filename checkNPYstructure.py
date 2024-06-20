@@ -12,6 +12,6 @@ def inspect_npy_file(file_path):
     print("Data sample (first 5 entries):")
     print(data[:5])
 
-# Example usage
-file_path = 'C:/Users/wbblo/Bureaublad/AI_THESIS/ground_truth/ground_truth/npy/trn_2022_v1_208_10sec_emotional_F1_Condition_F1.npy'
+#Define input
+file_path = 'path/to/numpy.npy'
 inspect_npy_file(file_path)
